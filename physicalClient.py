@@ -13,8 +13,6 @@ import minimalmodbus
 import serial
 from time import time
 
-# Debug logging setup (can be removed if desired)
-
 # Definition of Modbus instrument to pull data from
 instrument = minimalmodbus.Instrument('/dev/ttyUSB0', 1)
 
