@@ -4,6 +4,8 @@ import minimalmodbus
 import serial
 from time import time
 
+# Credit to Trey Burks, Bradley Northern, and Dr. Denis Ulybyshev for their contributions
+# to the MinimalModbus portion of the code
 # Definition of Modbus instrument to pull data from
 instrument = minimalmodbus.Instrument('/dev/ttyUSB0', 1)
 
